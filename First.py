@@ -16,6 +16,11 @@ print(name)                         # Prints Name of the user
 #  title() = It Capatilised the string first letter of each word.
 
 Name = input("What is your name? ").strip().title()
-print("Hello,", Name)  
+print(f"Hello, {Name}")  
+
+#f-String = formatted string used to print multiple variables in a single print statement.
+age = int(input("Enter your Age: "))  # Taking age input from user and converting
+print(f"Hello, {Name}. You are {age} years old.")
+
 
 
